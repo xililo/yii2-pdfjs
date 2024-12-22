@@ -31,13 +31,13 @@ Previewer PDF File with PDF.js for Yii2
 Package is available on [Packagist](https://packagist.org/packages/xililo/yii2-pdfjs), you can install it using [Composer](https://getcomposer.org).
 
 ```shell
-composer require xililo/yii2-pdfjs '^1.0'
+composer require xililo/yii2-pdfjs 'dev-master'
 ```
 
 or add to the require section of your `composer.json` file.
 
 ```shell
-'xililo/yii2-pdfjs': '^1.0'
+'xililo/yii2-pdfjs': 'dev-master'
 ```
 
 ## Dependencies
