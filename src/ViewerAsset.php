@@ -1,6 +1,6 @@
 <?php
 
-namespace diecoding\pdfjs;
+namespace xililo\pdfjs;
 
 use yii\web\AssetBundle;
 
@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
  * Viewer:
  * Example: assets/web/viewer.html
  * 
- * @link [sugeng-sulistiyawan.github.io](sugeng-sulistiyawan.github.io)
+ * @link [xililo.github.io](xililo.github.io)
  * @author Sugeng Sulistiyawan <sugeng.sulistiyawan@gmail.com>
  * @copyright Copyright (c) 2023
  */

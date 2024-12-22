@@ -2,13 +2,13 @@
 
 Previewer PDF File with PDF.js for Yii2
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/diecoding/yii2-pdfjs?label=stable)](https://packagist.org/packages/diecoding/yii2-pdfjs)
-[![Total Downloads](https://img.shields.io/packagist/dt/diecoding/yii2-pdfjs)](https://packagist.org/packages/diecoding/yii2-pdfjs)
-[![Latest Stable Release Date](https://img.shields.io/github/release-date/sugeng-sulistiyawan/yii2-pdfjs)](https://github.com/sugeng-sulistiyawan/yii2-pdfjs)
-[![Quality Score](https://img.shields.io/scrutinizer/quality/g/sugeng-sulistiyawan/yii2-pdfjs)](https://scrutinizer-ci.com/g/sugeng-sulistiyawan/yii2-pdfjs)
-[![Build Status](https://img.shields.io/travis/com/sugeng-sulistiyawan/yii2-pdfjs)](https://app.travis-ci.com/sugeng-sulistiyawan/yii2-pdfjs)
-[![License](https://img.shields.io/github/license/sugeng-sulistiyawan/yii2-pdfjs)](https://github.com/sugeng-sulistiyawan/yii2-pdfjs)
-[![PHP Version Require](https://img.shields.io/packagist/dependency-v/diecoding/yii2-pdfjs/php?color=6f73a6)](https://packagist.org/packages/diecoding/yii2-pdfjs)
+[![Latest Stable Version](https://img.shields.io/packagist/v/xililo/yii2-pdfjs?label=stable)](https://packagist.org/packages/xililo/yii2-pdfjs)
+[![Total Downloads](https://img.shields.io/packagist/dt/xililo/yii2-pdfjs)](https://packagist.org/packages/xililo/yii2-pdfjs)
+[![Latest Stable Release Date](https://img.shields.io/github/release-date/xililo/yii2-pdfjs)](https://github.com/xililo/yii2-pdfjs)
+[![Quality Score](https://img.shields.io/scrutinizer/quality/g/xililo/yii2-pdfjs)](https://scrutinizer-ci.com/g/xililo/yii2-pdfjs)
+[![Build Status](https://img.shields.io/travis/com/xililo/yii2-pdfjs)](https://app.travis-ci.com/xililo/yii2-pdfjs)
+[![License](https://img.shields.io/github/license/xililo/yii2-pdfjs)](https://github.com/xililo/yii2-pdfjs)
+[![PHP Version Require](https://img.shields.io/packagist/dependency-v/xililo/yii2-pdfjs/php?color=6f73a6)](https://packagist.org/packages/xililo/yii2-pdfjs)
 
 > Yii2 PDF.js uses [PDF.js](https://mozilla.github.io/pdf.js/) <br> Demo: <https://mozilla.github.io/pdf.js/web/viewer.html>
 
@@ -28,16 +28,16 @@ Previewer PDF File with PDF.js for Yii2
 
 ## Instalation
 
-Package is available on [Packagist](https://packagist.org/packages/diecoding/yii2-pdfjs), you can install it using [Composer](https://getcomposer.org).
+Package is available on [Packagist](https://packagist.org/packages/xililo/yii2-pdfjs), you can install it using [Composer](https://getcomposer.org).
 
 ```shell
-composer require diecoding/yii2-pdfjs '^1.0'
+composer require xililo/yii2-pdfjs '^1.0'
 ```
 
 or add to the require section of your `composer.json` file.
 
 ```shell
-'diecoding/yii2-pdfjs': '^1.0'
+'xililo/yii2-pdfjs': '^1.0'
 ```
 
 ## Dependencies
@@ -53,7 +53,7 @@ or add to the require section of your `composer.json` file.
 ...
 'modules'=>[
   'pdfjs' => [
-       'class' => \diecoding\pdfjs\Module::class,
+       'class' => \xililo\pdfjs\Module::class,
    ],
 ],
 ...
@@ -65,7 +65,7 @@ or add to the require section of your `composer.json` file.
 #### Basic Usage
 
 ```php
-echo \diecoding\pdfjs\PdfJs::widget([
+echo \xililo\pdfjs\PdfJs::widget([
     'url' => '@web/uploads/dummy.pdf',
 ]);
 ```
@@ -79,7 +79,7 @@ echo Url::to(["/pdfjs", 'file' => Url::to('@web/uploads/dummy.pdf', true)], true
 #### Custom Attribute
 
 ```php
-echo \diecoding\pdfjs\PdfJs::widget([
+echo \xililo\pdfjs\PdfJs::widget([
     'url' => '@web/uploads/dummy.pdf',
     'options' => [
         'style' => [
@@ -93,7 +93,7 @@ echo \diecoding\pdfjs\PdfJs::widget([
 #### Disable Toolbar Section
 
 ```php
-echo \diecoding\pdfjs\PdfJs::widget([
+echo \xililo\pdfjs\PdfJs::widget([
     'url' => '@web/uploads/dummy.pdf',
     'sections' => [
         'toolbarContainer' => false,

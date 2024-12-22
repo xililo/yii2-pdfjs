@@ -1,6 +1,6 @@
 <?php
 
-namespace diecoding\pdfjs;
+namespace xililo\pdfjs;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -11,7 +11,7 @@ use yii\helpers\Html;
 /**
  * PdfJs is the class for widgets.
  * 
- * @link [sugeng-sulistiyawan.github.io](sugeng-sulistiyawan.github.io)
+ * @link [xililo.github.io](xililo.github.io)
  * @author Sugeng Sulistiyawan <sugeng.sulistiyawan@gmail.com>
  * @copyright Copyright (c) 2023
  */

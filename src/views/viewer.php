@@ -1,6 +1,6 @@
 <?php
 
-use diecoding\pdfjs\Module;
+use xililo\pdfjs\Module;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;

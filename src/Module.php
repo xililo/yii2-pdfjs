@@ -1,11 +1,11 @@
 <?php
 
-namespace diecoding\pdfjs;
+namespace xililo\pdfjs;
 
 /**
  * PdfJs Module Viewer.
  * 
- * @link [sugeng-sulistiyawan.github.io](sugeng-sulistiyawan.github.io)
+ * @link [xililo.github.io](xililo.github.io)
  * @author Sugeng Sulistiyawan <sugeng.sulistiyawan@gmail.com>
  * @copyright Copyright (c) 2024
  */
@@ -24,5 +24,5 @@ class Module extends \yii\base\Module
 	/**
 	 * @inheritdoc
 	 */
-	public $controllerNamespace = 'diecoding\pdfjs\controllers';
+	public $controllerNamespace = 'xililo\pdfjs\controllers';
 }

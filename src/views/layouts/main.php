@@ -1,6 +1,6 @@
 <?php
 
-use diecoding\pdfjs\ViewerAsset;
+use xililo\pdfjs\ViewerAsset;
 use yii\helpers\Html;
 
 /** @var \yii\web\View $this */
@@ -36,30 +36,30 @@ See https://github.com/adobe-type-tools/cmap-resources
 -->
 <html dir="ltr" mozdisallowselectionprint>
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<meta name="google" content="notranslate">
-		<title><?= Html::encode($this->title) ?></title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="google" content="notranslate">
+	<title><?= Html::encode($this->title) ?></title>
 
-		<!-- This snippet is used in production (included from viewer.html) -->
-		<link rel="resource" type="application/l10n" href="<?= $bundle->baseUrl ?>/web/locale/locale.json">
-		<link rel="stylesheet" href="<?= $bundle->baseUrl ?>/web/viewer.css">
+	<!-- This snippet is used in production (included from viewer.html) -->
+	<link rel="resource" type="application/l10n" href="<?= $bundle->baseUrl ?>/web/locale/locale.json">
+	<link rel="stylesheet" href="<?= $bundle->baseUrl ?>/web/viewer.css">
 
-		<script src="<?= $bundle->baseUrl ?>/build/pdf.worker.mjs" type="module"></script>
-		<script src="<?= $bundle->baseUrl ?>/build/pdf.mjs" type="module"></script>
-		<script src="<?= $bundle->baseUrl ?>/web/viewer.mjs" type="module"></script>
+	<script src="<?= $bundle->baseUrl ?>/build/pdf.worker.mjs" type="module"></script>
+	<script src="<?= $bundle->baseUrl ?>/build/pdf.mjs" type="module"></script>
+	<script src="<?= $bundle->baseUrl ?>/web/viewer.mjs" type="module"></script>
 
-		<?php $this->head() ?>
-	</head>
+	<?php $this->head() ?>
+</head>
 
-	<body tabindex="1">
-		<?php $this->beginBody() ?>
+<body tabindex="1">
+	<?php $this->beginBody() ?>
 
-		<?= $content ?>
+	<?= $content ?>
 
-		<?php $this->endBody() ?>
-	</body>
+	<?php $this->endBody() ?>
+</body>
 
 </html>
 <?php $this->endPage() ?>

@@ -1,6 +1,6 @@
 <?php
 
-namespace diecoding\pdfjs\controllers;
+namespace xililo\pdfjs\controllers;
 
 use Yii;
 use yii\web\Controller;
@@ -8,7 +8,7 @@ use yii\web\Controller;
 /**
  * Default controller for the PdfJs Module.
  * 
- * @link [sugeng-sulistiyawan.github.io](sugeng-sulistiyawan.github.io)
+ * @link [xililo.github.io](xililo.github.io)
  * @author Sugeng Sulistiyawan <sugeng.sulistiyawan@gmail.com>
  * @copyright Copyright (c) 2024
  */

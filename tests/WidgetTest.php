@@ -1,6 +1,6 @@
 <?php
 
-namespace diecoding\pdfjs\tests;
+namespace xililo\pdfjs\tests;
 
 /**
  * Class WidgetTest
